@@ -4,9 +4,9 @@ A library for performing buffered data operations for needs that exceed the RAM.
   
  ---
  
- #### Routines
+#### Routines
  
- ##### External Sort
+##### External Sort
 
 - **extern_sort**: Function for sorting the giant file.
 
@@ -21,4 +21,11 @@ A library for performing buffered data operations for needs that exceed the RAM.
  
  - **extern_search**: returns whether the target string is in the giant file (through segmentation of the file and status logging).
     
-    
+
+---
+
+#### Future Work
+- Multi-threaded model for performing operations on different chunks at the same time.
+- Other modes and operations to be supported like External distribution sort.
+- Performance evaluation and benchmarking
+
