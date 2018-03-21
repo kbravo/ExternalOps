@@ -14,16 +14,6 @@ using namespace std;
 	Step 3: Writes each chunk to a temporary file
 	Step 4: Performs a k-wise merge on the temporary files
 
-*/
-
-string infile;
-string outfile;
-string chunk_location;
-string chunk_path;
-int chunk_cap;
-
-
-/*
 	Your favorite n*log(n) sorting algorithm.
 	Be sure that you use an in-place version of the algorithm.
 
@@ -32,11 +22,11 @@ int chunk_cap;
 	
 	Possible options:
 		-Quicksort
-
 		-Mergesort
 		-Heapsort
 		
 */
+
 string getName(int i) {
 	string integ = to_string(i+1);
 	if(integ.length() == 1) {

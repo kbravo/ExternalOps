@@ -4,6 +4,12 @@
 
 using namespace std;
 
+string infile;
+string outfile;
+string chunk_location;
+string chunk_path;
+int chunk_cap;
+
 // Main function for sorting the file
 void extern_sort(string in_fname, string out_fname,
 		string chunk_location, int chunk_size);
